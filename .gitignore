@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/web-projects-repository/FileContentIndex
+/.vs/web-projects-repository/v17
+/.vs
+/Web.Profile.Bren.UI/bin/Debug/net9.0
+/Web.Profile.Bren.UI/obj
+/Web.Profile.Bren.UI/Properties
+/.gitignore

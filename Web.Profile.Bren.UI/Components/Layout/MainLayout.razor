@@ -3,12 +3,16 @@
 <div class="container">
 	<NavMenu />
 </div>
-
-<main>
-	<div class="container p-4">
-		@Body
+<div class="content content-footer-spacing d-flex flex-column">
+	<main class="flex-fill">
+		<div class="container p-4">
+			@Body
+		</div>
+	</main>
+	<div class="mt-auto">
+		<NavFooter />
 	</div>
-</main>
+</div>
 
 <div id="blazor-error-ui" data-nosnippet>
 	An unhandled error has occurred.

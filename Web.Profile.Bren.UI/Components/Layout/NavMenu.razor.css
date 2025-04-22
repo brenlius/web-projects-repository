@@ -53,7 +53,15 @@
     }
 
     .dropdown-menu {
-        --bs-dropdown-border-color: disable;
-        --bs-dropdown-bg: disable;
+        --bs-dropdown-border-color: transparent;
+        --bs-dropdown-bg: transparent;
     }
 }
+
+/*.navbar-padding-x-disable {
+    --bs-navbar-padding-x: disable;*/ /* Padding when shrunk */
+/*}
+
+.navbar-padding-x-enable {
+    --bs-navbar-padding-x: 0;*/ /* Padding when shrunk */
+/*}*/

@@ -2,6 +2,10 @@ main {
     flex: 1;
 }
 
+.flex-fill {
+    background-color: #FFFFF0;
+}
+
 #blazor-error-ui {
     color-scheme: light only;
     background: lightyellow;

@@ -1,3 +1,7 @@
-﻿.container {
-    font-family: 'Bebas Neue';
+﻿#bg-footer {
+    background-color: #6D652F;
+}
+
+.container {
+    font-family: 'Playfair Display';
 }

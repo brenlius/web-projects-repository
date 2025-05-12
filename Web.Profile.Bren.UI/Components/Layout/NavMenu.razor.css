@@ -1,21 +1,3 @@
-.navbar {
-    background-image: linear-gradient(180deg, rgb(224, 247, 250) 0%, #B3E5FC 70%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    font-family: 'Bebas Neue';
-}
-
-.nav-item ::deep .nav-link {
-    color: #003366;
-    background: none;
-    border: none;
-    border-radius: 4px;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    line-height: 3rem;
-    width: 100%;
-}
-
 .dropdown-menu {
     overflow: hidden;
     overflow-y: auto;
@@ -23,7 +5,7 @@
 }
 
     .dropdown-menu ::deep .dropdown-item {
-        color: #003366;
+        color: #4E3B31;
         background: none;
         border: none;
         border-radius: 4px;
@@ -34,9 +16,33 @@
         width: 100%;
     }
 
+    .dropdown-menu .dropdown-item:hover, .navbar-nav .nav-link:hover {
+        background-color: #D2B776;
+        color: #FFFFFF;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+.navbar {
+    background-image: linear-gradient(180deg, rgb(255, 238, 185) 0%, #D2B776 70%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Playfair Display SC';
+}
+
 .navbar-brand {
-    color: #003366;
+    color: #4E3B31;
     font-size: 1.1rem;
+}
+
+.nav-item ::deep .nav-link {
+    color: #4E3B31;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+    width: 100%;
 }
 
 /* css for desktops */
@@ -47,12 +53,13 @@
     }
 
     .dropdown-menu {
-        --bs-border-radius: 0rem;
-        background-color: #FFFFF0;
+        /*--bs-border-radius: 0rem;*/
+        --bs-dropdown-padding-y: 0rem;
+        background-color: #FFEEB9;
     }
 }
 
-/* css for tablets */
+/* css for mobile devices / tablets */
 @media (max-width: 991px) {
     .navbar {
         /*border-bottom: 0.5px solid #00000040;*/
@@ -61,6 +68,6 @@
     .dropdown-menu {
         --bs-dropdown-border-color: transparent;
         --bs-dropdown-bg: transparent;
-        --bs-dropdown-padding-y: 0;
+        --bs-dropdown-padding-y: 0rem;
     }
 }

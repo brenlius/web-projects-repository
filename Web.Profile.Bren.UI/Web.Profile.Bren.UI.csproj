@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\lib\default\css\" />
     <Folder Include="wwwroot\lib\default\js\" />
+    <Folder Include="wwwroot\lib\default\fonts\" />
   </ItemGroup>
 
 </Project>

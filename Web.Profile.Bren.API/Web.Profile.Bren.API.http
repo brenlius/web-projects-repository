@@ -1,0 +1,6 @@
+@Web.Profile.Bren.API_HostAddress = http://localhost:5075
+
+GET {{Web.Profile.Bren.API_HostAddress}}/api/activity/
+Accept: application/json
+
+###
